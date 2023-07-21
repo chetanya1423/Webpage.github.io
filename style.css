@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
 }
 .navbar {
     display: flex;
@@ -1369,5 +1370,36 @@ color: #323232;
     .compo h1 {
         font-size: 41px;
         color: #323232;
+    }
+    .bookp {
+        height: 28rem;
+        margin: -17px auto;
+        max-width: -moz-max-content;
+        padding: 15px;
+    }
+    .bookcon {
+        width: 17rem;
+        background: #e9e9e9;
+        height: 35rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookbtn p {
+        font-size: 13px;
+        font-weight: bold;
+        margin: 23px 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #323232;
+        width: 14rem;
+    }
+    .bookbtn img {
+        width: 23px;
+        height: 22px;
+        margin: 22px -57px;
+    }
+    .bookbtn {
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
     }
 }
