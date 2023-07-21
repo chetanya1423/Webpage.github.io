@@ -21,17 +21,16 @@
 }
 .navi {
     display: flex;
-    height: max-content;
-    margin: auto 0px;
+    margin: 10px auto;
+    max-width: -moz-max-content;
 }
 .navi li {
     text-decoration: none;
     list-style: none;
-    margin: 0px 17px;
+    margin: 0px 44px;
     font-size: 17px;
-    padding: 14px;
+    padding: 13px;
     font-family: 'Montserrat', sans-serif;
-    
 }
 #home{
     color: #0DB9B4;
@@ -198,6 +197,7 @@ display: flex;
 .uncase h1 {
     margin: 10px auto;
     width: max-content;
+    max-width: -moz-max-content;
 }
 .uncase button {
     margin: 20px 72px;
@@ -875,4 +875,499 @@ color: #323232;
     margin: 6px 6px;
     background: #000000;
     color: #ffffff;
+}
+
+.comimg {
+    width: max-content;
+    margin: 49px auto;
+    max-width: -moz-max-content;
+}
+.compo {
+    width: max-content;
+    margin: 10px auto;
+    max-width: -moz-max-content;
+}
+#combtn {
+    max-width: -moz-max-content;
+}
+.compo button p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: -moz-max-content;
+    margin: 0px auto;
+    margin-top: -22px;
+}
+
+
+
+
+@media(max-width:1229px){
+    .navbar {
+        margin: 11px auto;
+        max-width: -moz-max-content;
+    }
+    .navi {
+        display: flex;
+        margin: 10px auto;
+        max-width: -moz-max-content;
+    }
+}
+
+@media(max-width:1133px){
+    .content {
+        height: 38rem;
+        background: #f1f1f1;
+        margin-top: -57px;
+    }
+    .tab {
+        margin: 0px auto;
+        max-width: -moz-max-content;
+    }
+    .sec-tab {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 20px auto;
+        max-width: -moz-max-content;
+    }
+    .cont {
+        border: 1px solid white;
+        width: 22rem;
+        border-radius: 30px;
+        background: white;
+        margin: 20px 0px;
+    }
+    .tab1 {
+        background-color: #f1f1f1;
+        margin-top: -74px;
+        height: 91rem;
+    }
+    
+    .incase {
+        display: flex;
+        margin: 64px auto;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: -moz-max-content;
+    }
+    .uncase {
+        width: 20rem;
+        margin: 0px auto;
+    }
+    .case {
+        display: flex;
+        margin: 71px auto;
+        background: #f1f1f1;
+        margin-top: 0px;
+        height: 85rem;
+    }
+    .book {
+        display: flex;
+        margin: 0px auto;
+        max-width: -moz-max-content;
+        flex-direction: column;
+    }
+    .bookcon {
+        width: 41rem;
+        background: #e9e9e9;
+        height: 28rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookp {
+        height: 21rem;
+        margin: -17px auto;
+        max-width: -moz-max-content;
+        padding: 15px;
+    }
+    .bookimg {
+        margin: 0px auto;
+        max-width: -moz-max-content;
+    }
+    .book1 {
+        background-color: #f1f1f1;
+        margin-top: -71px;
+        height: 70rem;
+    }
+    .comimg {
+        width: max-content;
+        margin: 49px auto;
+        max-width: -moz-max-content;
+    }
+}
+
+@media(max-width:970px){
+    .btn-con {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-con button {
+        font-size: 20px;
+        padding: 12px;
+        border-radius: 23px;
+        width: 162px;
+        margin: 15px 11px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .content {
+        height: 72rem;
+        background: #f1f1f1;
+        margin-top: -57px;
+    }
+    .unmainp {
+        display: flex;
+        margin: 71px auto;
+        max-width: -moz-max-content;
+        flex-direction: column;
+    }
+    .first-con {
+        display: flex;
+        margin: 74px auto;
+        max-width: -moz-max-content;
+        flex-direction: column;
+    }
+    .btn-con button {
+        font-size: 20px;
+        padding: 12px;
+        border-radius: 23px;
+        width: 162px;
+        margin: 15px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .comb {
+        margin: 20px auto;
+        height: 34rem;
+    }
+    .navi li {
+        text-decoration: none;
+        list-style: none;
+        margin: 0px 18px;
+        font-size: 17px;
+        padding: 13px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+@media(max-width:811px){
+    .casecon p {
+        font-size: 20px;
+        width: 12rem;
+        margin: 21px 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .casecon {
+        width: 14rem;
+    }
+    .bookcon {
+        width: 29rem;
+        background: #e9e9e9;
+        height: 28rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookbtn p {
+        font-size: 13px;
+        font-weight: bold;
+        margin: 23px 55px;
+        font-family: 'Montserrat', sans-serif;
+        color: #323232;
+    }
+    .bookbtn img {
+        width: 23px;
+        height: 22px;
+        margin: 22px -38px;
+    }
+}
+
+
+
+
+@media(max-width:531px){
+    .comb {
+        margin: 20px auto;
+        height: 34rem;
+        width: 23rem;
+    }
+    .maj-con h1 {
+        font-size: 43px;
+        margin: 30px auto;
+    }
+    .navi li {
+        text-decoration: none;
+        list-style: none;
+        font-size: 16px;
+        padding: 11px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+    }
+    .img-con img {
+        width: 19rem;
+        height: 17rem;
+        margin: 0px auto;
+    }
+    .comb {
+        margin: 20px auto;
+        height: 34rem;
+        max-width: -moz-max-content;
+    }
+    .first-tab {
+        width: 21rem;
+        padding: 14px;
+        text-align: center;
+        margin: 43px auto;
+    }
+    .uncase img {
+        width: 19rem;
+    }
+    .case {
+        display: flex;
+        margin: 71px auto;
+        background: #f1f1f1;
+        margin-top: 0px;
+        height: 79rem;
+    }
+    .mat {
+        display: flex;
+        border-bottom: 1px solid black;
+        margin: 19px 0px;
+        flex-direction: column;
+    }
+    .case {
+        display: flex;
+        margin: 71px auto;
+        background: #f1f1f1;
+        margin-top: 0px;
+        height: 112rem;
+    }
+    .bookcon {
+        width: 21rem;
+        background: #e9e9e9;
+        height: 28rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookp h1 {
+        font-size: 39px;
+        margin: 53px 0px;
+        width: 18rem;
+    }
+    .bookimg img {
+        width: 21rem;
+    }
+    .book1 {
+        background-color: #f1f1f1;
+        margin-top: -71px;
+        height: 60rem;
+    }
+    .comimg img {
+        width: 18rem;
+    }
+    .compo {
+        width: max-content;
+        margin: 10px auto;
+        max-width: 20rem;
+    }
+    .pimg img {
+        margin: 0px 8px;
+    }
+    .compo button {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 21px;
+        height: 42px;
+        color: white;
+        background-color: #272727;
+        margin: 30px auto;
+        display: flex;
+        width: 424px;
+        justify-content: space-evenly;
+    }
+    .compo button p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        max-width: -moz-max-content;
+        margin: 0px auto;
+        margin-top: -21px;
+        font-size: 11px;
+    }
+    
+}
+
+
+
+
+@media(max-width:371px){
+    .navi li {
+        text-decoration: none;
+        list-style: none;
+        font-size: 15px;
+        padding: 7px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+    }
+    .maj-con h1 {
+        font-size: 40px;
+        margin: 30px auto;
+    }
+    .comb {
+        margin: 20px auto;
+        height: 34rem;
+        max-width: 18rem;
+    }
+    .comb {
+        margin: 20px auto;
+        height: 39rem;
+        max-width: 18rem;
+    }
+    .img-con img {
+        width: 17rem;
+        height: 16rem;
+        margin: 0px auto;
+    }
+    .comb {
+        margin: 20px auto;
+        height: 39rem;
+        max-width: 16rem;
+    }
+    .first-tab {
+        width: 18rem;
+        padding: 14px;
+        text-align: center;
+        margin: 43px auto;
+    }
+    .first-tab {
+        width: 15rem;
+        padding: 9px;
+        text-align: center;
+        margin: 43px auto;
+    }
+    .tab {
+        margin: 0px auto;
+        max-width: 17rem;
+    }
+    .first-tab {
+        width: 17rem;
+        padding: 9px;
+        text-align: center;
+        margin: 43px auto;
+    }
+    .first-tab p {
+        font-size: 27px;
+        width: 16rem;
+    }
+    .cont {
+        border: 1px solid white;
+        width: 17rem;
+        border-radius: 30px;
+        background: white;
+        margin: 14px 0px;
+    }
+    .cont h2 {
+        font-size: 20px;
+        margin: 20px auto;
+        padding: 9px;
+    }
+    .minipara {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        width: 16rem;
+        padding: 7px;
+    }
+    .pimg {
+        display: flex;
+        margin: 38px 0px;
+        max-width: -moz-max-content;
+    }
+    .paralog {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 7px;
+    }
+    .cont img {
+      
+        padding: 7px;
+    }
+    .pimg img {
+        margin: 0px 13px;
+        width: 18px;
+        height: 20px;
+    }
+    .tab1 {
+        background-color: #f1f1f1;
+        margin-top: -74px;
+        height: 98rem;
+    }
+    .uncase {
+        width: 17rem;
+        margin: 0px auto;
+    }
+    .uncase button {
+        width: 11rem;
+        font-size: 20px;
+        padding: 9px;
+        border-radius: 23px;
+        color: white;
+        background-color: #272727;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-left: 3rem;
+    }
+    .uncase img {
+        width: 18rem;
+    }
+    .fullmat {
+        margin: 0px 25px;
+    }
+    .bookcon {
+        width: 17rem;
+        background: #e9e9e9;
+        height: 28rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookp h1 {
+        font-size: 39px;
+        margin: 53px 0px;
+        width: 14rem;
+    }
+    .bookp {
+        height: 25rem;
+        margin: -17px auto;
+        max-width: -moz-max-content;
+        padding: 15px;
+    }
+    .bookcon {
+        width: 17rem;
+        background: #e9e9e9;
+        height: 31rem;
+        border-radius: 36px;
+        margin: 31px auto;
+    }
+    .bookimg img {
+        width: 17rem;
+    }
+    .comimg img {
+        width: 17rem;
+    }
+    .compo {
+        width: max-content;
+        margin: 10px auto;
+        max-width: 17rem;
+        align-items: center;
+    }
+    .compo h1 {
+        font-size: 41px;
+        color: #323232;
+    }
 }
